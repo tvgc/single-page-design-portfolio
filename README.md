@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/tvgc/single-page-design-portfolio](https://github.com/tvgc/single-page-design-portfolio)
-- Live Site URL: [https://tvgc.github.io/single-page-design-portfolio/starter-code/](https://tvgc.github.io/single-page-design-portfolio/starter-code/)
+- Live Site URL: [https://tvgc.github.io/single-page-design-portfolio/](https://tvgc.github.io/single-page-design-portfolio/)
 
 ## My process
 
