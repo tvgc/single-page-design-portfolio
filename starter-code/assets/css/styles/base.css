@@ -59,6 +59,14 @@
     --bigger-x1-fs: 2.4rem; /*work title*/
     --bigger-x2-fs: 2.6rem; /*me and contact title*/
     --bigger-x3-fs: 3.6rem; /*main title*/
+
+    /**
+     * MEDIDAS
+    */
+
+    --carousel-card-width: min(calc(100vw * 0.72), 54rem);/*o tamanho do card vai ajustar conforme a width da tela. No figma, o card tem 72% da width da tela*/
+    
+    --carousel-first-last-card-width: max(calc(100vw * 0.12), calc(calc(100vw - 54rem)/2));/*como a width max do item é 54rem, então o que sobrar da vw dividido por 2 seria o valor do item first e last do carousel. Desta forma a primaiera imagem (segundo item) vai sempre iniciar no meio da tela*/
 }
 
 @media (min-width: 770px){
@@ -75,6 +83,8 @@
         --bigger-x1-fs: 3.2rem; /*work title*/
         --bigger-x2-fs: 3.2rem; /*me and contact title*/
         --bigger-x3-fs: 4.4rem; /*main title*/
+
+        /* --carousel-first-last-card-width: calc(100vh * 0.3); */
     }
 }
 
@@ -92,6 +102,12 @@
         --bigger-x1-fs: 3.2rem; /*work title*/
         --bigger-x2-fs: 4rem; /*me and contact title*/
         --bigger-x3-fs: 5.6rem; /*main title*/
+
+        /**
+        * MEDIDAS
+        */
+
+        /* --carousel-first-last-card-width: max((calc(100vw - 54rem)/2), calc(calc(100vw / 2.5))); */
     }
 }
 

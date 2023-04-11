@@ -40,6 +40,10 @@
 /*-----------------------------------*\
   #ME
 \*-----------------------------------*/
+.l-me {
+    padding: 0 0 10rem;
+}
+
 .l-me .l-container {
     display: flex;
     flex-direction: column;
@@ -63,7 +67,41 @@
 /*-----------------------------------*\
   #WORK
 \*-----------------------------------*/
+.l-work {
+    /* overflow: hidden; */
+    text-align: center;
+    margin-bottom: 12rem;
+}
+@media (min-width: 770px){
+    .l-work {
+        margin-bottom: 8.8rem;
+    }
+}
+
+
+
+
+
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+.l-contact {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 770px){
+    .l-contact {
+        margin-bottom: 5.6rem;
+    }
+}
+
+
 
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
+.l-footer {
+    padding-bottom: 3.2rem;
+}
