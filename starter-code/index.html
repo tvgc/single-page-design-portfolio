@@ -5,32 +5,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="assets/css/styles/main.css">
   
   <title>Frontend Mentor | Single-page design portfolio</title>
 </head>
 <body>
+  <!-- HEADER -->
+  <header class="l-header">
+    <div class="l-container">
+      <nav class="c-nav">
+        <img class="o-logo" src="assets/images/logo.svg" alt="logo">
 
-  Free Consultation
+        <button class="o-button">Free Consultation</button>
+      </nav>
+    </div>
+  </header>
 
-  Design solutions made easy
+  <!-- MAIN -->
+  <main>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+    <!-- HOME -->
+    <section class="l-home">
+      <div class="l-container">
+        <div class="c-home__content">
+          <h1 class="c-home__main-title">
+            Design solutions made easy
+          </h1>
 
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
+          <p class="c-home__desc">
+            With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+          </p>
+        </div>
 
-  I’m Amy, and I’d love to work on your next project
+        <div class="c-home__grid">
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">Graphic Design</h4>
 
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
+            <img class="c-home__box-img" src="assets/images/pattern-graphic-design.svg" alt="">
+          </div>
 
-  Free Consultation
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">UI/UX</h4>
 
-  My Work
+            <img class="c-home__box-img" src="assets/images/pattern-ui-ux.svg" alt="">
+          </div>
+
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">Apps</h4>
+
+            <img class="c-home__box-img" src="assets/images/pattern-apps.svg" alt="">
+          </div>
+
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">Photography</h4>
+
+            <img class="c-home__box-img" src="assets/images/pattern-photography.svg" alt="">
+          </div>
+
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">Illustrations</h4>
+
+            <img class="c-home__box-img" src="assets/images/pattern-illustrations.svg" alt="">
+          </div>
+
+          <div class="c-home__box">
+            <h4 class="c-home__box-title">Motion Graphics</h4>
+
+            <img class="c-home__box-img" src="assets/images/pattern-motion-graphics.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ME -->
+    <section class="l-me">
+      <div class="l-container">
+        <img class="o-avatar" src="assets/images/image-amy.webp" width="300" height="300" alt="Avatar">
+
+        <div class="c-me__content">
+          <h2 class="c-me__title">
+            I’m Amy, and I’d love to work on your next project
+          </h2>
+
+          <p class="c-me__desc">
+            I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
+          </p>
+
+          <button class="o-button">Free Consultation</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="l-work">
+      <h2>My Work</h2>
+
+      <div class="c-carousel">
+        <div class="c-carousel-item">
+          <img src="assets/images/image-slide-1.jpg" alt="">
+        </div>
+
+        <div class="c-carousel-item">
+          <img src="assets/images/image-slide-2.jpg" alt="">
+        </div>
+
+        <div class="c-carousel-item">
+          <img src="assets/images/image-slide-3.jpg" alt="">
+        </div>
+
+        <div class="c-carousel-item">
+          <img src="assets/images/image-slide-4.jpg" alt="">
+        </div>
+
+        <div class="c-carousel-item">
+          <img src="assets/images/image-slide-5.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  
+
+  
+
+
+  
 
   Book a call with me
 
@@ -40,6 +142,8 @@
   Free Consultation
 
   Free Consultation
+
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
